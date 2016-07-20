@@ -160,9 +160,11 @@
                             <h1 class="blog-title"><a href="/">{Title}</a></h1>
                             {/block:ShowTitle}
                             {block:ShowDescription}
-                            <span class="description">
-                                {Description}
-                            </span>
+                            <h2>
+                                <span class="description">
+                                    {Description}
+                                </span>
+                            </h2>
                             {/block:ShowDescription}
 
                             {block:IfShowNavigation}
@@ -176,6 +178,22 @@
                                                 </li>
                                                 {/block:Pages}
                                             {/block:HasPages}
+                                            <li class="nav-item">
+                                                <a href="http://dargacode.tumblr.com/tagged/highlights" class="label">Highlights</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="http://dargacode.tumblr.com/tagged/my-projects" class="label">Projects</a></a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="http://dargacode.tumblr.com/tagged/progress" class="label">Progress</a>
+                                            </li>
+                                           <li class="nav-item">
+                                                <a href="https://github.com/dargaCode" class="label">GitHub</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="https://www.linkedin.com/in/mdarga" class="label">LinkedIn</a>
+                                            </li>
+
                                             {block:AskEnabled}
                                                 <li class="nav-item nav-item--ask">
                                                     <a href="/ask" class="label">{AskLabel}</a>
